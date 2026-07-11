@@ -91,8 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/mmo/saana/proprietary/lib/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/mmo/saana/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/mmo/saana/proprietary/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.latency@2.0.so \
-    vendor/mmo/saana/proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk:$(TARGET_COPY_OUT_SYSTEM)/priv-app/dpmserviceapp/dpmserviceapp.apk \
-    vendor/mmo/saana/proprietary/vendor/app/PowerOffAlarm/PowerOffAlarm.apk:$(TARGET_COPY_OUT_VENDOR)/app/PowerOffAlarm/PowerOffAlarm.apk \
     vendor/mmo/saana/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/mmo/saana/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/mmo/saana/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
@@ -645,6 +643,8 @@ PRODUCT_PACKAGES += \
     embms \
     imssettings \
     uceShimService \
+    dpmserviceapp \
     ims \
     qcrilmsgtunnel \
+    PowerOffAlarm \
     TimeService
