@@ -73,12 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/mmo/saana/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
     vendor/mmo/saana/proprietary/vendor/bin/lowi_test:$(TARGET_COPY_OUT_VENDOR)/bin/lowi_test \
     vendor/mmo/saana/proprietary/vendor/bin/mlid:$(TARGET_COPY_OUT_VENDOR)/bin/mlid \
-    vendor/mmo/saana/proprietary/vendor/bin/mm-adec-omxaac-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-adec-omxaac-test \
-    vendor/mmo/saana/proprietary/vendor/bin/mm-aenc-omxaac-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-aenc-omxaac-test \
-    vendor/mmo/saana/proprietary/vendor/bin/mm-aenc-omxamr-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-aenc-omxamr-test \
-    vendor/mmo/saana/proprietary/vendor/bin/mm-aenc-omxevrc-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-aenc-omxevrc-test \
-    vendor/mmo/saana/proprietary/vendor/bin/mm-aenc-omxqcelp13-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-aenc-omxqcelp13-test \
-    vendor/mmo/saana/proprietary/vendor/bin/mm-audio-alsa-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-audio-alsa-test \
     vendor/mmo/saana/proprietary/vendor/bin/mm-audio-ftm:$(TARGET_COPY_OUT_VENDOR)/bin/mm-audio-ftm \
     vendor/mmo/saana/proprietary/vendor/bin/mm-pp-dpps:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-dpps \
     vendor/mmo/saana/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
@@ -159,7 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/mmo/saana/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     vendor/mmo/saana/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/mmo/saana/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
-    vendor/mmo/saana/proprietary/vendor/etc/calmodule.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/calmodule.cfg \
     vendor/mmo/saana/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/mmo/saana/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/mmo/saana/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -343,7 +336,6 @@ PRODUCT_COPY_FILES += \
     vendor/mmo/saana/proprietary/vendor/lib/libbthost_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbthost_if.so \
     vendor/mmo/saana/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/mmo/saana/proprietary/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so \
-    vendor/mmo/saana/proprietary/vendor/lib/libcalmodule_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalmodule_common.so \
     vendor/mmo/saana/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_S5K4E1_13P1BA_common.so \
     vendor/mmo/saana/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_S5K4E1_13P1BA_default_video.so \
     vendor/mmo/saana/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_S5K4E1_13P1BA_hfr_120fps.so \
@@ -534,7 +526,6 @@ PRODUCT_COPY_FILES += \
     vendor/mmo/saana/proprietary/vendor/lib/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofence.so \
     vendor/mmo/saana/proprietary/vendor/lib/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnss.so \
     vendor/mmo/saana/proprietary/vendor/lib/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnsspps.so \
-    vendor/mmo/saana/proprietary/vendor/lib/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgps.utils.so \
     vendor/mmo/saana/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/mmo/saana/proprietary/vendor/lib/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp1prov.so \
     vendor/mmo/saana/proprietary/vendor/lib/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp2p2prov.so \
@@ -549,7 +540,6 @@ PRODUCT_COPY_FILES += \
     vendor/mmo/saana/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
     vendor/mmo/saana/proprietary/vendor/lib/libloc2jnibridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc2jnibridge.so \
     vendor/mmo/saana/proprietary/vendor/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_v02.so \
-    vendor/mmo/saana/proprietary/vendor/lib/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_core.so \
     vendor/mmo/saana/proprietary/vendor/lib/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_ds_api.so \
     vendor/mmo/saana/proprietary/vendor/lib/libloc_externalDr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_externalDr.so \
     vendor/mmo/saana/proprietary/vendor/lib/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocation_api.so \
@@ -590,7 +580,6 @@ PRODUCT_COPY_FILES += \
     vendor/mmo/saana/proprietary/vendor/lib/libmmcamera_imx134.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx134.so \
     vendor/mmo/saana/proprietary/vendor/lib/libmmcamera_imx135.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx135.so \
     vendor/mmo/saana/proprietary/vendor/lib/libmmcamera_imx214.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx214.so \
-    vendor/mmo/saana/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
     vendor/mmo/saana/proprietary/vendor/lib/libmmcamera_mt9m114.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mt9m114.so \
     vendor/mmo/saana/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
     vendor/mmo/saana/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
@@ -633,7 +622,6 @@ PRODUCT_COPY_FILES += \
     vendor/mmo/saana/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wavelet_lib.so \
     vendor/mmo/saana/proprietary/vendor/lib/libmmipl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmipl.so \
     vendor/mmo/saana/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
-    vendor/mmo/saana/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/mmo/saana/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
     vendor/mmo/saana/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/mmo/saana/proprietary/vendor/lib/liboemcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcamera.so \
@@ -660,7 +648,6 @@ PRODUCT_COPY_FILES += \
     vendor/mmo/saana/proprietary/vendor/lib/libqmi_csvt_srvc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csvt_srvc.so \
     vendor/mmo/saana/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
     vendor/mmo/saana/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
-    vendor/mmo/saana/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/mmo/saana/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/mmo/saana/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/mmo/saana/proprietary/vendor/lib/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtr.so \
