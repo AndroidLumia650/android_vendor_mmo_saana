@@ -16,6 +16,46 @@ android_app_import {
 }
 
 android_app_import {
+	name: "datastatusnotification",
+	owner: "mmo",
+	apk: "proprietary/app/datastatusnotification/datastatusnotification.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "embms",
+	owner: "mmo",
+	apk: "proprietary/app/embms/embms.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "imssettings",
+	owner: "mmo",
+	apk: "proprietary/app/imssettings/imssettings.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "uceShimService",
+	owner: "mmo",
+	apk: "proprietary/app/uceShimService/uceShimService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
 	name: "ims",
 	owner: "mmo",
 	apk: "proprietary/priv-app/ims/ims.apk",
@@ -38,75 +78,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ConnectionSecurityService",
-	owner: "mmo",
-	apk: "proprietary/vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "QDMA-UI",
-	owner: "mmo",
-	apk: "proprietary/vendor/app/QDMA-UI/QDMA-UI.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "QDMA",
-	owner: "mmo",
-	apk: "proprietary/vendor/app/QDMA/QDMA.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "QSensorTest",
-	owner: "mmo",
-	apk: "proprietary/vendor/app/QSensorTest/QSensorTest.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "SSGTelemetryService",
-	owner: "mmo",
-	apk: "proprietary/vendor/app/SSGTelemetryService/SSGTelemetryService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "TimeService",
 	owner: "mmo",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "TrustZoneAccessService",
-	owner: "mmo",
-	apk: "proprietary/vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
